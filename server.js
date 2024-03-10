@@ -3,7 +3,6 @@ const mysql = require('mysql2/promise');
 
 const app = express();
 
-// Database connection details (replace with your actual credentials)
 const pool = mysql.createPool({
   host: 'localhost',
   user: 'your_username',
